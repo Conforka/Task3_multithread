@@ -15,8 +15,8 @@ public class CamperArrivingState implements CamperState {
     Terminal terminal = base.getTerminal(camper);
     camper.setTerminal(terminal);
     switch (camper.getOperation()) {
-      case LOADING -> camper.setCamperState(new CamperLoading());
-      case UNLOADING, LOADING_UNLOADING -> camper.setCamperState(new CamperUnloading());
+      case LOADING -> camper.setCamperState(new CamperLoadingState());
+      case UNLOADING, LOADING_UNLOADING -> camper.setCamperState(new CamperUnloadingState());
       default -> throw new MultiThreadException("Invalid ship target");
 
     }

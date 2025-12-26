@@ -11,13 +11,12 @@ public class CamperLeavingState implements CamperState {
   @Override
   public void doAction(Camper camper) throws MultiThreadException {
     LogisticsBase base = LogisticsBase.getInstance();
-    Terminal terminal = base.getTerminal(camper);
+    Terminal terminal = camper.getTerminal();
 
-    if (terminal != null) {
+
       base.releaseTerminal(terminal, camper);
       camper.setTerminal(null);
-    } else {
-      throw new MultiThreadException("Camper " + camper.getCamperId() + " has no assigned terminal!");
-    }
+
+    camper.setCamperState(new CamperArrivingState());
   }
 }

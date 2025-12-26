@@ -15,8 +15,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class LogisticsBase {
   private static final Logger logger = LogManager.getLogger();
-  private static final int AMOUNT_OF_TERMINALS = 5;
-  private static final int CAPACITY = 30;
+  private static final int AMOUNT_OF_TERMINALS = 2;
+  private static final int CAPACITY = 120;
   private static LogisticsBase instance;
   private static Lock lock = new ReentrantLock();
   private AtomicInteger occupiedSlots;
@@ -52,7 +52,7 @@ public class LogisticsBase {
 
   public Terminal getTerminal(Camper camper) {
     try {
-      terminalLock.lock();
+      lock.lock();
       while (freeTerminals.isEmpty()) {
         try {
           terminalCondition.await();
@@ -73,33 +73,31 @@ public class LogisticsBase {
               terminal.getTerminalId());
       return terminal;
     } finally {
-      terminalLock.unlock();
+      lock.unlock();
     }
   }
 
   public void releaseTerminal(Terminal terminal, Camper camper) {
     try {
-      terminalLock.lock();
+      lock.lock();
       busyTerminals.remove(terminal);
       freeTerminals.add(terminal);
-      terminalCondition.signal();
       logger.info(
               "Camper {} finished at Terminal {} | Base load: {} / {}",
               camper.getCamperId(),
               terminal.getTerminalId(),
               occupiedSlots.get(),
               CAPACITY);
+      terminalCondition.signal();
     } finally {
-      terminalLock.unlock();
+      lock.unlock();
     }
   }
 
   public void loadCamper(Camper camper) {
     try {
-      lock.lock();
+      terminalLock.lock();
       while (!camper.isFull()) {
-        camper.addLoad();
-        occupiedSlots.incrementAndGet();
         if (occupiedSlots.get() > 0) {
           logger.info(
                   "Camper {} loaded | Camper load: {} | Base load: {} / {}",
@@ -107,16 +105,18 @@ public class LogisticsBase {
                   camper.getOccupiedSlots(),
                   occupiedSlots.get(),
                   CAPACITY);
+          camper.addLoad();
+          occupiedSlots.decrementAndGet();
         } else {
-          logger.info("Base is full, cannot load camper {}", camper.getCamperId());
+          logger.info("Base is empty, cannot load camper {}", camper.getCamperId());//?
           break;
         }
       }
     } finally {
-      lock.unlock();
+      terminalLock.unlock();
     }
     try {
-      TimeUnit.SECONDS.sleep(1);
+      TimeUnit.SECONDS.sleep(100);
     } catch (InterruptedException e) {
       logger.error("Thread was interrupted during loading of camper {}", camper.getCamperId(), e);
       Thread.currentThread().interrupt();
@@ -125,28 +125,28 @@ public class LogisticsBase {
 
   public void unloadCamper(Camper camper) {
     try {
-      lock.lock();
+      terminalLock.lock();
       while (!camper.isEmpty()) {
-        if (occupiedSlots.get() > 0) {
-          camper.removeLoad();
-          occupiedSlots.decrementAndGet();
+        if (occupiedSlots.get() < CAPACITY) {
           logger.info(
                   "Camper {} unloaded | Camper load: {} | Base load: {} / {}",
                   camper.getCamperId(),
                   camper.getOccupiedSlots(),
                   occupiedSlots.get(),
                   CAPACITY);
+          camper.removeLoad();
+          occupiedSlots.incrementAndGet();
         } else {
-          logger.info("Base is empty, cannot unload camper {}", camper.getCamperId());
+          logger.info("Base is full, cannot unload camper {}", camper.getCamperId());//?
           break;
         }
       }
     } finally {
-      lock.unlock();
+      terminalLock.unlock();
     }
 
     try {
-      TimeUnit.SECONDS.sleep(1);
+      TimeUnit.SECONDS.sleep(100);
     } catch (InterruptedException e) {
       logger.error("Thread was interrupted during unloading of camper {}", camper.getCamperId(), e);
       Thread.currentThread().interrupt();

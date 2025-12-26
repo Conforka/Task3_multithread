@@ -1,35 +1,39 @@
-2025-12-23 09:28:56,118 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 34 | Base load: 44 / 30
-2025-12-23 09:28:56,128 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 33 | Base load: 43 / 30
-2025-12-23 09:28:56,128 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 32 | Base load: 42 / 30
-2025-12-23 09:28:56,128 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 31 | Base load: 41 / 30
-2025-12-23 09:28:56,128 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 30 | Base load: 40 / 30
-2025-12-23 09:28:56,129 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 29 | Base load: 39 / 30
-2025-12-23 09:28:56,129 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 28 | Base load: 38 / 30
-2025-12-23 09:28:56,129 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 27 | Base load: 37 / 30
-2025-12-23 09:28:56,129 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 26 | Base load: 36 / 30
-2025-12-23 09:28:56,129 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 25 | Base load: 35 / 30
-2025-12-23 09:28:56,130 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 24 | Base load: 34 / 30
-2025-12-23 09:28:56,130 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 23 | Base load: 33 / 30
-2025-12-23 09:28:56,130 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 22 | Base load: 32 / 30
-2025-12-23 09:28:56,130 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 21 | Base load: 31 / 30
-2025-12-23 09:28:56,130 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 20 | Base load: 30 / 30
-2025-12-23 09:28:56,130 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 19 | Base load: 29 / 30
-2025-12-23 09:28:56,130 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 18 | Base load: 28 / 30
-2025-12-23 09:28:56,131 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 17 | Base load: 27 / 30
-2025-12-23 09:28:56,131 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 16 | Base load: 26 / 30
-2025-12-23 09:28:56,131 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 15 | Base load: 25 / 30
-2025-12-23 09:28:56,131 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 14 | Base load: 24 / 30
-2025-12-23 09:28:56,131 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 13 | Base load: 23 / 30
-2025-12-23 09:28:56,132 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 12 | Base load: 22 / 30
-2025-12-23 09:28:56,132 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 11 | Base load: 21 / 30
-2025-12-23 09:28:56,132 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 10 | Base load: 20 / 30
-2025-12-23 09:28:56,132 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 9 | Base load: 19 / 30
-2025-12-23 09:28:56,132 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 8 | Base load: 18 / 30
-2025-12-23 09:28:56,132 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 7 | Base load: 17 / 30
-2025-12-23 09:28:56,132 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 6 | Base load: 16 / 30
-2025-12-23 09:28:56,133 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 5 | Base load: 15 / 30
-2025-12-23 09:28:56,133 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 4 | Base load: 14 / 30
-2025-12-23 09:28:56,133 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 3 | Base load: 13 / 30
-2025-12-23 09:28:56,133 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 2 | Base load: 12 / 30
-2025-12-23 09:28:56,134 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 1 | Base load: 11 / 30
-2025-12-23 09:28:56,134 INFO [Thread-2] by.horevich.threadtask.entity.LogisticsBase - Camper SHIP_3 unloaded | Camper load: 0 | Base load: 10 / 30
+2025-12-26 08:50:07,149 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 3 | Base load: 52 / 120
+2025-12-26 08:50:07,173 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 2 | Base load: 53 / 120
+2025-12-26 08:50:07,174 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 1 | Base load: 54 / 120
+2025-12-26 08:52:06,650 INFO [main] by.horevich.threadtask.reader.BaseTextReaderImpl - Read 3 lines from file textfile/file.txt
+2025-12-26 08:52:06,712 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 arrived | Operation: LOADING | Base load: 50 / 120 | Terminal 9270ecf44e3c4bc797545e5bff821f94 is now occupied
+2025-12-26 08:52:06,713 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 arrived | Operation: UNLOADING | Base load: 50 / 120 | Terminal 1faaee78a6a74b4abfcf4a1239a61429 is now occupied
+2025-12-26 08:52:06,715 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 30 | Base load: 50 / 120
+2025-12-26 08:52:06,716 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 31 | Base load: 49 / 120
+2025-12-26 08:52:06,716 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 32 | Base load: 48 / 120
+2025-12-26 08:52:06,716 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 33 | Base load: 47 / 120
+2025-12-26 08:52:06,716 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 34 | Base load: 46 / 120
+2025-12-26 08:52:06,717 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 10 | Base load: 45 / 120
+2025-12-26 08:52:06,718 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 9 | Base load: 46 / 120
+2025-12-26 08:52:06,718 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 8 | Base load: 47 / 120
+2025-12-26 08:52:06,719 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 7 | Base load: 48 / 120
+2025-12-26 08:52:06,719 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 6 | Base load: 49 / 120
+2025-12-26 08:52:06,719 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 5 | Base load: 50 / 120
+2025-12-26 08:52:06,720 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 4 | Base load: 51 / 120
+2025-12-26 08:52:06,720 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 3 | Base load: 52 / 120
+2025-12-26 08:52:06,721 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 2 | Base load: 53 / 120
+2025-12-26 08:52:06,721 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 1 | Base load: 54 / 120
+2025-12-26 08:52:43,001 INFO [main] by.horevich.threadtask.reader.BaseTextReaderImpl - Read 3 lines from file textfile/file.txt
+2025-12-26 08:52:43,062 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 arrived | Operation: LOADING | Base load: 50 / 120 | Terminal 63a0900580894ea6be9da1b05569928f is now occupied
+2025-12-26 08:52:43,063 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 arrived | Operation: UNLOADING | Base load: 50 / 120 | Terminal b49f3caba94d469598c1fe8b7bbacb58 is now occupied
+2025-12-26 08:52:43,065 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 30 | Base load: 50 / 120
+2025-12-26 08:52:43,065 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 31 | Base load: 49 / 120
+2025-12-26 08:52:43,066 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 32 | Base load: 48 / 120
+2025-12-26 08:52:43,066 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 33 | Base load: 47 / 120
+2025-12-26 08:52:43,066 INFO [Thread-0] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_1 loaded | Camper load: 34 | Base load: 46 / 120
+2025-12-26 08:52:43,067 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 10 | Base load: 45 / 120
+2025-12-26 08:52:43,067 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 9 | Base load: 46 / 120
+2025-12-26 08:52:43,067 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 8 | Base load: 47 / 120
+2025-12-26 08:52:43,067 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 7 | Base load: 48 / 120
+2025-12-26 08:52:43,067 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 6 | Base load: 49 / 120
+2025-12-26 08:52:43,068 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 5 | Base load: 50 / 120
+2025-12-26 08:52:43,068 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 4 | Base load: 51 / 120
+2025-12-26 08:52:43,068 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 3 | Base load: 52 / 120
+2025-12-26 08:52:43,068 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 2 | Base load: 53 / 120
+2025-12-26 08:52:43,068 INFO [Thread-1] by.horevich.threadtask.entity.LogisticsBase - Camper VAN_2 unloaded | Camper load: 1 | Base load: 54 / 120

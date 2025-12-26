@@ -12,4 +12,9 @@ public class Terminal {
   public String getTerminalId() {
     return terminalId;
   }
+
+  @Override
+  public String toString() {
+    return terminalId;
+  }
 }

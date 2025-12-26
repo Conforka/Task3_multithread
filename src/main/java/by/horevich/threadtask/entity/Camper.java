@@ -38,9 +38,7 @@ public class Camper implements Runnable {
     return operation;
   }
 
-  public void setOperation(CamperOperation operation) {
-    this.operation = operation;
-  }
+
 
   public void setCamperState(CamperState state) {
     this.camperState = state;
@@ -49,6 +47,11 @@ public class Camper implements Runnable {
   public void setTerminal(Terminal terminal) {
     this.terminal = terminal;
   }
+
+  public Terminal getTerminal() {
+    return terminal;
+  }
+
 
   public int getOccupiedSlots(){
     return occupiedSlots;
@@ -80,6 +83,7 @@ public class Camper implements Runnable {
 
         if (camperState instanceof CamperLeavingState) {
           finished = true;
+
         }
 
       } catch (MultiThreadException e) {

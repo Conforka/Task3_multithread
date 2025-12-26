@@ -14,7 +14,7 @@ import java.util.List;
 
 public class Main {
   private static final Logger logger = LogManager.getLogger();
-  
+
   public static void main(String[] args) {
     BaseTextReader reader = new BaseTextReaderImpl();
     List<String> lines = reader.read("textfile/file.txt");
@@ -36,7 +36,7 @@ public class Main {
     }
 
     LogisticsBase base = LogisticsBase.getInstance();
-    base.getOccupiedSlots().set(10);
+    base.getOccupiedSlots().set(50);
 
 
     List<Thread> threads = new ArrayList<>();
